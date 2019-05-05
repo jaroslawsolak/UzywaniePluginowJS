@@ -42,5 +42,7 @@
     "onchange": "^5.2.0",
     "rimraf": "^2.6.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "flickity": "^2.2.0"
+  }
 }
