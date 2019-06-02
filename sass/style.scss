@@ -1,81 +1,36 @@
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; 
-    padding: 10px;
-    text-align: center;
-}
-
-.carousel {
-    height: 250px;
-    width: 100%;
-
 .carousel-cell {
-    width: 100%; /* full width */
-    min-height: 250px;
-    background: #ff6600;
-  }
+  width: 100%;
+  min-height: 250px;
+  background: #ff6600;
 }
 
 .container {
-	max-width: 1200px; 
-  margin: 0 auto;
-  background-size: cover;
-  text-align: center;
-  padding: 50px;
+max-width: 1200px; 
+margin: 0 auto;
+background-size: cover;
+text-align: center;
+padding: 50px;
 }
 
 h3 {
-  color: white;
-  font-weight: bold;
-  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+color: blue;
+font-weight: bold;
+text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .progress-bar {
-  position: relative;
-  height: 30px;
-  background-color: lightgrey;
+position: relative;
+height: 30px;
+background-color: lightgrey;
 }
 
 .progress-bar .bar {
-  background-color: #ff6600;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
+background-color: #ff6600;
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
 }
-
-#map {
-    width: 100%;
-    height: 400px;
-    background-color: black;
-  }
-
-  /* no circle */
-.flickity-button {
-    background: transparent;
-  }
-  /* big previous & next buttons */
-  .flickity-prev-next-button {
-    width: 100px;
-    height: 100px;
-  }
-  /* icon color */
-  .flickity-button-icon {
-    fill: white;
-  }
-  /* hide disabled button */
-  .flickity-button:disabled {
-    display: none;
-  }
-
-  /* position dots up a bit */
-.flickity-page-dots {
-    bottom: -22px;
-  }
-  /* dots are lines */
-  .flickity-page-dots .dot {
-    height: 4px;
-    width: 40px;
-    margin: 0;
-    border-radius: 0;
-  }
+.js--reset{
+  position: absolute;
+}
